@@ -417,7 +417,7 @@ class Node(NodeMixin[Child]):
 
 
 </div>
-</details>`,Cpe={title:"BootswatchStyle"},ly=eae(kpe,[{id:"dynamicComponent",Component:kE},{id:"highlighted",Component:EE}]),vr=()=>{Qte(ly.componentPairs);const e=new bpe("a11yDark"),{CodeStyleSelector:t,codeExecute:a}=e.useComponent(),r=new _pe("lux"),{ThemeSelector:n}=r.useThemeComponent(),o={code:a};return fe.jsx("div",{children:fe.jsx(_E,{markdownString:ly.transformedContent,components:o,externalReactComponents:[fe.jsx(n,{},"theme"),fe.jsx(t,{},"code")]})})};vr.__docgenInfo={description:"",methods:[],displayName:"Default"};var cy,uy,dy;vr.parameters={...vr.parameters,docs:{...(cy=vr.parameters)==null?void 0:cy.docs,source:{originalSource:`() => {
+</details>`,Cpe={title:"Pull Request"},ly=eae(kpe,[{id:"dynamicComponent",Component:kE},{id:"highlighted",Component:EE}]),vr=()=>{Qte(ly.componentPairs);const e=new bpe("a11yDark"),{CodeStyleSelector:t,codeExecute:a}=e.useComponent(),r=new _pe("lux"),{ThemeSelector:n}=r.useThemeComponent(),o={code:a};return fe.jsx("div",{children:fe.jsx(_E,{markdownString:ly.transformedContent,components:o,externalReactComponents:[fe.jsx(n,{},"theme"),fe.jsx(t,{},"code")]})})};vr.__docgenInfo={description:"",methods:[],displayName:"ChildrenAnnotaion"};var cy,uy,dy;vr.parameters={...vr.parameters,docs:{...(cy=vr.parameters)==null?void 0:cy.docs,source:{originalSource:`() => {
   useDynamicComponents(dynamicRenderResult.componentPairs);
   const codePlugin = new PrimeCodePlugin('a11yDark');
   const {
@@ -434,4 +434,4 @@ class Node(NodeMixin[Child]):
   return <div>
         <Talkative markdownString={dynamicRenderResult.transformedContent} components={components} externalReactComponents={[<ThemeSelector key="theme" />, <CodeStyleSelector key="code" />]} />
       </div>;
-}`,...(dy=(uy=vr.parameters)==null?void 0:uy.docs)==null?void 0:dy.source}}};const Rpe=["Default"];export{vr as Default,Rpe as __namedExportsOrder,Cpe as default};
+}`,...(dy=(uy=vr.parameters)==null?void 0:uy.docs)==null?void 0:dy.source}}};const Rpe=["ChildrenAnnotaion"];export{vr as ChildrenAnnotaion,Rpe as __namedExportsOrder,Cpe as default};
